@@ -1,10 +1,10 @@
 # Movie Recommendation System
 
 ## Overview
-This project aims to develop a movie recommendation system that provides suggestions based on user searches. It utilizes a dataset available on Kaggle containing approximately one million movie titles, overviews, languages, popularity, ratings, and other related information.
+This project aims to develop a movie recommendation system that provides suggestions based on user searches. It utilizes a dataset available on Kaggle containing approximately one million movie titles, overviews, genres, languages, popularity, ratings, and other related information.
 
 ## Technique Used
-The recommendation system employs the TF-IDF (Term Frequency-Inverse Document Frequency) technique. It analyzes the movie titles and overviews to generate recommendations.
+The recommendation system employs the TF-IDF (Term Frequency-Inverse Document Frequency) technique. It analyzes the movie titles, genres and overviews to generate recommendations.
 TF-IDF stands for Term Frequency-Inverse Document Frequency. It is a numerical statistic used in natural language processing and information retrieval to evaluate the importance of a word in a document relative to a collection of documents or a corpus.
 
 TF (Term Frequency) measures how frequently a term occurs in a document. It signifies the number of times a particular word appears in a document relative to the total number of words in that document. Words that occur more frequently within a specific document are deemed more important to that document.
